@@ -1,6 +1,8 @@
-console.log("hello", "world", 3)
+const v = 64
+
+console.log(`V=${v}`)
 console.error("error")
-console.error("warning")
+console.warn("warning")
 
 // single line comment
 /* multi line comment
