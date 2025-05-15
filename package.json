@@ -1,0 +1,23 @@
+{
+  "name": "javascript-demo",
+  "version": "1.0.0",
+  "description": "bassirous coding javascript",
+  "main": "Demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Subad928/JavaScript-Demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Subad928/JavaScript-Demo/issues"
+  },
+  "homepage": "https://github.com/Subad928/JavaScript-Demo#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
