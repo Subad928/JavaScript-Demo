@@ -1,11 +1,20 @@
-const person = {
-    name: "Alice",
-    greet() {
-        console.log(`Hello, my name is ${this.name}`);
-    },
-};
+const myPromise = new Promise((resolve, reject) => {
+    // Asynchronous operation
+    if (true) {
+        resolve(value); // Fulfill the promise
+    } else {
+        reject(error); // Reject the promise
+    }
+});
 
-person.greet(); // "Hello, my name is Alice"
+// const person = {
+//     name: "Alice",
+//     greet() {
+//         console.log(`Hello, my name is ${this.name}`);
+//     },
+// };
+
+// person.greet(); // "Hello, my name is Alice"
 
 // const numbers = [1, 2, 3, 4];
 // const doubled = numbers.map((num) => num * 2);
