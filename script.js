@@ -1,8 +1,32 @@
-const arr = [1, 2, 3, 4]
-
-for (let [i, value] of arr.entries()) {
-    console.log(i, value)
+const obj = {
+    name: "Alice",
+    age: 23,
+    sayHello: function() {
+        return "hello"
+    },
+    career: {}
 }
+
+const obj2 = {
+    hairColor: "black",
+    arr: [1, 2, 3],
+    name: "Tim"
+}
+
+const obj3 = {...obj, ...obj2}
+
+obj3.career.info = "tech"
+console.log(obj, obj3)
+
+// for (let key in obj) {
+//     console.log(key)
+// }
+
+// const arr = [1, 2, 3, 4]
+
+// for (let [i, value] of arr.entries()) {
+//     console.log(i, value)
+// }
 
 // const arr = [1,2,3]
 
