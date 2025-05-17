@@ -1,12 +1,49 @@
-try {
-    riskyFunction();
-} catch (error) {
-    console.error("An error occurred:", error.message);
-} finally {
-    console.log("Cleanup code can go here."); // Always runs
-}
+const numbers = [1, 2, 3, 4];
+const doubled = numbers.map((num) => num * 2);
+console.log(doubled); // [2, 4, 6, 8]
 
-throw new Error("this is not good!")
+const users = [
+  { name: "Alice", age: 25 },
+  { name: "Bob", age: 30 },
+];
+
+const names = users.map((user) => user.name);
+console.log(names); // ["Alice", "Bob"]
+
+const numbers2 = [1, 2, 3, 4];
+const sum = numbers2.reduce((acc, num) => acc + num, 0);
+console.log(sum); // 10
+
+const numbers3 = [1, 2, 3, 4, 5];
+const evenNumbers = numbers3.filter((num) => num % 2 === 0);
+console.log(evenNumbers); // [2, 4]
+
+// function addNums(...numbers) {
+//     return [1, 2]
+// }
+
+// function greet(name, age = 12) {
+//     console.log(name, age)
+// }
+
+// const greet = function(name) {
+
+// }
+
+// const greet = (name) => + "!"
+
+// greet("name")()
+
+
+// try {
+//     riskyFunction();
+// } catch (error) {
+//     console.error("An error occurred:", error.message);
+// } finally {
+//     console.log("Cleanup code can go here."); // Always runs
+// }
+
+// throw new Error("this is not good!")
 
 // const myMap = new Map();
 // const numberMap = new Map([[1, 'one'], [2, 'two']]);
