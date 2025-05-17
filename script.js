@@ -1,26 +1,38 @@
-const obj = {
-    name: "Alice",
-    age: 23,
-    sayHello: function() {
-        return "hello"
-    },
-    career: {}
-}
+const mySet = new Set();
+mySet.add(1)
+mySet.delete(1)
+mySet.has(1)
+mySet.size
 
-const obj2 = {
-    hairColor: "black",
-    arr: [1, 2, 3],
-    name: "Tim"
-}
+mySet.clear()
+const arr = [...mySet]
 
-const obj3 = {...obj, ...obj2}
-
-obj3.career.info = "tech"
-console.log(obj, obj3)
-
-// for (let key in obj) {
-//     console.log(key)
+// const obj = {
+//     name: "Alice",
+//     age: 23,
+//     sayHello: function() {
+//         return "hello"
+//     },
+//     career: {}
 // }
+
+// const obj2 = {
+//     hairColor: "black",
+//     arr: [1, 2, 3],
+//     name: "Tim"
+// }
+
+// const obj3 = {...obj, ...obj2}
+
+// const {hairColor, name} = obj3
+// console.log(hairColor, name)
+
+// // obj2.hairColor = "brown"
+// // console.log(obj, obj3)
+
+// // for (let key in obj) {
+// //     console.log(key)
+// // }
 
 // const arr = [1, 2, 3, 4]
 
