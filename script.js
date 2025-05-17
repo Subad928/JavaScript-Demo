@@ -1,22 +1,31 @@
-const numbers = [1, 2, 3, 4];
-const doubled = numbers.map((num) => num * 2);
-console.log(doubled); // [2, 4, 6, 8]
+const person = {
+    name: "Alice",
+    greet() {
+        console.log(`Hello, my name is ${this.name}`);
+    },
+};
 
-const users = [
-  { name: "Alice", age: 25 },
-  { name: "Bob", age: 30 },
-];
+person.greet(); // "Hello, my name is Alice"
 
-const names = users.map((user) => user.name);
-console.log(names); // ["Alice", "Bob"]
+// const numbers = [1, 2, 3, 4];
+// const doubled = numbers.map((num) => num * 2);
+// console.log(doubled); // [2, 4, 6, 8]
 
-const numbers2 = [1, 2, 3, 4];
-const sum = numbers2.reduce((acc, num) => acc + num, 0);
-console.log(sum); // 10
+// const users = [
+//   { name: "Alice", age: 25 },
+//   { name: "Bob", age: 30 },
+// ];
 
-const numbers3 = [1, 2, 3, 4, 5];
-const evenNumbers = numbers3.filter((num) => num % 2 === 0);
-console.log(evenNumbers); // [2, 4]
+// const names = users.map((user) => user.name);
+// console.log(names); // ["Alice", "Bob"]
+
+// const numbers2 = [1, 2, 3, 4];
+// const sum = numbers2.reduce((acc, num) => acc + num, 0);
+// console.log(sum); // 10
+
+// const numbers3 = [1, 2, 3, 4, 5];
+// const evenNumbers = numbers3.filter((num) => num % 2 === 0);
+// console.log(evenNumbers); // [2, 4]
 
 // function addNums(...numbers) {
 //     return [1, 2]
