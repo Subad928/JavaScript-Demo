@@ -1,11 +1,38 @@
-const mySet = new Set();
-mySet.add(1)
-mySet.delete(1)
-mySet.has(1)
-mySet.size
+try {
+    riskyFunction();
+} catch (error) {
+    console.error("An error occurred:", error.message);
+} finally {
+    console.log("Cleanup code can go here."); // Always runs
+}
 
-mySet.clear()
-const arr = [...mySet]
+throw new Error("this is not good!")
+
+// const myMap = new Map();
+// const numberMap = new Map([[1, 'one'], [2, 'two']]);
+
+// myMap.set(4, "four")
+// myMap.delete(4)
+// myMap.get(1)
+// myMap.has(1)
+
+// for (const [key, value] of myMap.keys()){
+
+// }
+
+// const arr = Array.from(myMap) ->
+
+// myMap.clear()
+// myMap.size
+
+// const mySet = new Set();
+// mySet.add(1)
+// mySet.delete(1)
+// mySet.has(1)
+// mySet.size
+
+// mySet.clear()
+// const arr = [...mySet]
 
 // const obj = {
 //     name: "Alice",
