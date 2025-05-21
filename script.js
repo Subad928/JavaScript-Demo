@@ -1,11 +1,11 @@
-const myPromise = new Promise((resolve, reject) => {
-    // Asynchronous operation
-    if (true) {
-        resolve(value); // Fulfill the promise
-    } else {
-        reject(error); // Reject the promise
-    }
-});
+// const myPromise = new Promise((resolve, reject) => {
+//     // Asynchronous operation
+//     if (true) {
+//         resolve(value); // Fulfill the promise
+//     } else {
+//         reject(error); // Reject the promise
+//     }
+// });
 
 // const person = {
 //     name: "Alice",
@@ -36,9 +36,16 @@ const myPromise = new Promise((resolve, reject) => {
 // const evenNumbers = numbers3.filter((num) => num % 2 === 0);
 // console.log(evenNumbers); // [2, 4]
 
+// const oddNumbers = numbers3.filter((num) => num % 2 !== 0)
+
 // function addNums(...numbers) {
 //     return [1, 2]
 // }
+
+// function add(x, y, z) {
+//     console.log(x - y - z)
+// }
+// add(28, 8, 4)
 
 // function greet(name, age = 12) {
 //     console.log(name, age)
@@ -48,12 +55,14 @@ const myPromise = new Promise((resolve, reject) => {
 
 // }
 
-// const greet = (name) => + "!"
+// const greet = (name) => name + "!"
 
-// greet("name")()
+// console.log(greet("name"))
 
+// function greet(name) {
+//     console.log(name + "!")
+// }
 
-// try {
 //     riskyFunction();
 // } catch (error) {
 //     console.error("An error occurred:", error.message);
